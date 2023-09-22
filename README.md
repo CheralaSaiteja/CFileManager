@@ -46,6 +46,7 @@ configure and build the library
 ```shell
 cd CFileManager
 cmake -S . -B build/
+cd build/
 make -j4
 ```
 
@@ -110,7 +111,7 @@ Thank you for your contributions! Your help is invaluable to the project's growt
 
 ## License
 
-CFileManager is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full text of the license.
+CFileManager is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for the full text of the license.
 
 ### **MIT License Summary**
 

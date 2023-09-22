@@ -12,5 +12,12 @@ $(OBJ)/cfm_list_files.o: cfm_list_files.c
 
 
 all: setup test_cfm_list_files
+
+run_tests: test_cfm_list_files
+	./$(BIN)/test_cfm_list_files ..
+	find .. -type d -o -type f -exec basename {} \; > test_cfm_list_files_system.txt
+	diff test_cfm_list_files_system.txt test_cfm_list_files_output.txt
+
+
 clean: 
 	rm $(OBJ)/*.o $(BIN)/*

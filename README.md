@@ -60,15 +60,11 @@ target_link_libraries(${PROJECT_NAME} CFileManager)
 
 ## Documentation
 
-For comprehensive API documentation please refer to the [documentation](Documentation.md) file provided with this repository.
-
-- [Documentation](documentation.md): Detailed information about the CFileManager library's functions, parameters, and usage.
-
-Please consult these resources to understand and effectively use CFileManager.
+For comprehensive API Reference please refer to the [documentation](Documentation.md) here.
 
 ## Examples
 
-For refernce examples please refer to the [Examples](examples/) directory within this repository.
+For reference examples please refer to the [Examples](examples/) directory within this repository.
 
 ## Contribution Guide
 

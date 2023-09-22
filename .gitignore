@@ -7,3 +7,8 @@ build/
 # Tests
 Tests/bin/
 Tests/obj/
+
+# Misc
+test_*
+massif.*
+callgrind.*

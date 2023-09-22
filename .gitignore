@@ -1,2 +1,9 @@
+# Editor
 .cache/
+
+# Project
 build/
+
+# Tests
+Tests/bin/
+Tests/obj/
